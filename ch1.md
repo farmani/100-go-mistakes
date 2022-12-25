@@ -1,7 +1,7 @@
-# 1 Go: Simple to learn but hard to master 1
+# 1 Go: Simple to learn but hard to master
 What matters in the end isn’t the number of mistakes we make, but our capacity to learn from them. This assertion also applies to programming. The seniority we acquire in a language isn’t a magical process; it involves making many mistakes and learning from them. The purpose of this book is centered around this idea. It will help you, the reader, become a more proficient Go developer by looking at and learning from 100 common mistakes people make in many areas of the language
 
-## 1.1 Go outline 2
+## 1.1 Go outline
 Why does Go not have feature X? Your favorite feature may be missing because it doesn’t fit, because it affects compilation speed or clarity of design, or because it would make the fundamental system model too difficult.
 
 * ***Stability***: Even though Go receives frequent updates (including improvements and security patches), it remains a stable language. Some may even consider this one of the best features of the language.
@@ -9,12 +9,12 @@ Why does Go not have feature X? Your favorite feature may be missing because it 
 * ***Compilation***: As developers, what can be more exasperating than having to wait for a build to test our application? Targeting fast compilation times has always been a conscious goal for the language designers. This, in turn, enables productivity.
 * ***Safety***: Go is a strong, statically typed language. Hence, it has strict compile-time rules, which ensure the code is type-safe in most cases
 
-## 1.2 Simple doesn’t mean easy 3
+## 1.2 Simple doesn’t mean easy
 Go is simple to learn but not necessarily easy to master.
 
 Most of the blocking bugs are caused by inaccurate use of the message-passing paradigm via channels, despite the belief that message passing is easier to handle and less error-prone than sharing memory.
 
-## 1.3 100 Go mistakes 4
+## 1.3 100 Go mistakes
 Why should we read a book about common Go mistakes?
 The best time for brain growth is when we’re facing mistakes.
 
